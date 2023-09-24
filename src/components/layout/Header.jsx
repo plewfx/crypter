@@ -22,6 +22,7 @@ const Header = () => {
       <div className="container">
         <nav className="flex items-center justify-between">
           <ul className="flex items-center gap-32">
+            <img src='/j.png' />
             <Logo />
             { screenSize.width > 1024 ? 
               <>
