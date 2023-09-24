@@ -6,5 +6,147 @@
     .container {
         max-width: 77.77%;
         margin: 0 auto;
+
+        @media (max-width: 1024px) {
+            max-width: 84.375%;
+        }
+
+        @media (max-width: 600px) {
+            max-width: 83%;
+        }
+    }
+
+    .icon-20 {
+        width: 1.4vw;
+
+        @media (max-width: 1024px) {
+            width: 1.95vw;
+        }
+    }
+
+    .icon-24 {
+        width: 1.66vw;
+        
+        @media (max-width: 1024px) {
+            width: 2.34vw;
+        }
+    }
+
+    .sm-primary-btn {
+        padding: theme(padding.8) theme(padding.12);
+        line-height: theme(lineHeight.110);
+        font-size: theme(fontSize.14);
+        font-weight: theme(fontWeight.bold);
+        border-radius: 6.25vw;
+        color: theme(colors.neutrals.8);
+        background: theme(colors.primary.1);
+
+        @media (max-width: 1024px) {
+            padding: theme(padding.8-lg) theme(padding.12-lg);
+            font-size: theme(fontSize.14-lg);
+        }
+    }
+
+    .sm-primary-btn:hover {
+        background: theme(colors.primary.1-hover);
+    }
+
+    .md-primary-btn {
+        padding: theme(padding.16) theme(padding.24);
+        font-size: theme(fontSize.14);
+        font-weight: theme(fontWeight.bold);
+        border-radius: 6.25vw;
+        color: theme(colors.neutrals.8);
+        background: theme(colors.primary.1);
+
+        @media (max-width: 1024px) {
+            padding: theme(padding.16-lg) theme(padding.24-lg);
+            font-size: theme(fontSize.14-lg);
+        }
+    }
+
+    .md-primary-btn:hover {
+        background: theme(colors.primary.1-hover);
+    }
+
+    .lg-primary-btn {
+        padding: theme(padding.12) theme(padding.16);
+        line-height: theme(lineHeight.110);
+        font-size: theme(fontSize.14);
+        font-weight: theme(fontWeight.bold);
+        border-radius: 6.25vw;
+        color: theme(colors.neutrals.8);
+        background: theme(colors.primary.1);
+
+        @media (max-width: 1024px) {
+            padding: theme(padding.12-lg) theme(padding.16-lg);
+            font-size: theme(fontSize.14-lg);
+        }
+    }
+
+    .lg-primary-btn:hover {
+        background: theme(colors.primary.1-hover);
+    }
+
+    .sm-btn {
+        padding: theme(padding.8) theme(padding.12);
+        line-height: theme(lineHeight.110);
+        font-size: theme(fontSize.14);
+        color: theme(colors.neutrals.2);
+        font-weight: theme(fontWeight.bold);
+        border-radius: 6.25vw;
+        border: theme(borderWidth.2) solid theme(colors.neutrals.6);
+
+        @media (max-width: 1024px) {
+            padding: theme(padding.8-lg) theme(padding.12-lg);
+            font-size: theme(fontSize.14-lg);
+            border: theme(borderWidth.2-lg) solid theme(colors.neutrals.6);
+        }
+    }
+
+    .sm-btn:hover {
+        background: theme(colors.neutrals.2);
+        color: theme(colors.neutrals.8);
+    }
+
+    .md-btn {
+        padding: theme(padding.16) theme(padding.24);
+        font-size: theme(fontSize.14);
+        color: theme(colors.neutrals.2);
+        font-weight: theme(fontWeight.bold);
+        border-radius: 6.25vw;
+        border: theme(borderWidth.2) solid theme(colors.neutrals.6);
+
+        @media (max-width: 1024px) {
+            padding: theme(padding.16-lg) theme(padding.24-lg);
+            font-size: theme(fontSize.14-lg);
+            border: theme(borderWidth.2-lg) solid theme(colors.neutrals.6);
+        }
+    }
+
+    .md-btn:hover {
+        background: theme(colors.neutrals.2);
+        color: theme(colors.neutrals.8);
+    }
+
+    .lg-btn {
+        padding: theme(padding.12) theme(padding.16);
+        line-height: theme(lineHeight.110);
+        font-size: theme(fontSize.14);
+        color: theme(colors.neutrals.2);
+        font-weight: theme(fontWeight.bold);
+        border-radius: 6.25vw;
+        border: theme(borderWidth.2) solid theme(colors.neutrals.6);
+
+        @media (max-width: 1024px) {
+            padding: theme(padding.12-lg) theme(padding.16-lg);
+            font-size: theme(fontSize.14-lg);
+            border: theme(borderWidth.2-lg) solid theme(colors.neutrals.6);
+        }
+    }
+
+    .lg-btn:hover {
+        background: theme(colors.neutrals.2);
+        color: theme(colors.neutrals.8);
     }
 }
