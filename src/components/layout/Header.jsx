@@ -22,7 +22,6 @@ const Header = () => {
       <div className="container">
         <nav className="flex items-center justify-between">
           <ul className="flex items-center gap-32">
-            <img src='/j.png' />
             <Logo />
             { screenSize.width > 1024 ? 
               <>
@@ -43,7 +42,7 @@ const Header = () => {
           {
             screenSize.width > 600 ?
             <ul className="flex items-center gap-24">
-              <div className="flex items-center justify-between py-10 lg:py-10-lg pl-16 lg:pl-16-lg pr-12 lg:pr-12-lg border-2 border-neutrals-6 rounded-8">
+              <div className="flex items-center justify-between py-10 lg:py-10-lg pl-16 lg:pl-16-lg pr-12 lg:pr-12-lg border-2 border-neutrals-6 rounded-8 lg:rounded-8-lg">
                 <input className="focus:outline-none text-12 lg:text-12-lg placeholder:text-12 placeholder:lg:text-12-lg placeholder:leading-160" type="text" placeholder="Search"/>
                 <button>
                   <svg className="icon-20" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
