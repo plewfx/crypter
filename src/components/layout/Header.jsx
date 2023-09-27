@@ -43,7 +43,7 @@ const Header = () => {
             screenSize.width > 600 ?
             <ul className="flex items-center gap-24">
               <div className="flex items-center justify-between py-10 lg:py-10-lg pl-16 lg:pl-16-lg pr-12 lg:pr-12-lg border-2 border-neutrals-6 rounded-8 lg:rounded-8-lg">
-                <input className="focus:outline-none text-12 lg:text-12-lg placeholder:text-12 placeholder:lg:text-12-lg placeholder:leading-160" type="text" placeholder="Search"/>
+                <input className="font-Poppins focus:outline-none text-12 lg:text-12-lg placeholder:text-12 placeholder:lg:text-12-lg placeholder:leading-160" type="text" placeholder="Search"/>
                 <button>
                   <svg className="icon-20" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                     <path fillRule="evenodd" clipRule="evenodd" d="M12.4212 13.6002C11.2923 14.4778 9.87376 15.0003 8.33317 15.0003C4.65127 15.0003 1.6665 12.0156 1.6665 8.33366C1.6665 4.65176 4.65127 1.66699 8.33317 1.66699C12.0151 1.66699 14.9998 4.65176 14.9998 8.33366C14.9998 9.87425 14.4773 11.2928 13.5997 12.4217L18.0891 16.9111C18.4145 17.2365 18.4145 17.7641 18.0891 18.0896C17.7637 18.415 17.236 18.415 16.9106 18.0896L12.4212 13.6002ZM13.3332 8.33366C13.3332 11.0951 11.0946 13.3337 8.33317 13.3337C5.57175 13.3337 3.33317 11.0951 3.33317 8.33366C3.33317 5.57224 5.57175 3.33366 8.33317 3.33366C11.0946 3.33366 13.3332 5.57224 13.3332 8.33366Z" fill="#777E91"/>

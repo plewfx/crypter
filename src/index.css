@@ -33,6 +33,19 @@
         }
     }
 
+    h2 {
+        font-size: theme(fontSize.48);
+        font-weight: theme(fontWeight.bold);
+
+        @media (max-width: 1024px) {
+            font-size: theme(fontSize.40-lg);
+        }
+
+        @media (max-width: 600px) {
+            font-size: theme(fontSize.32-sm);
+        }
+    }
+
     .icon-20 {
         width: 1.4vw;
 
@@ -43,9 +56,16 @@
 
     .icon-24 {
         width: 1.66vw;
+        height: 1.66vw;
         
         @media (max-width: 1024px) {
             width: 2.34vw;
+            height: 2.34vw;
+        }
+
+        @media (max-width: 600px) {
+            width: 6.4vw;
+            height: 6.4vw;
         }
     }
 
