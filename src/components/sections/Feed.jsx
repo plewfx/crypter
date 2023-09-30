@@ -27,7 +27,7 @@ const Item = ({ img, title, price }) => {
             <div className='w-[11.11vw] lg:w-[15.625vw] h-[10.27vw] lg:h-[14.45vw] rounded-12 lg:rounded-12-lg bg-cover bg-no-repeat bg-center' style={{backgroundImage: `url(${img})`}}></div>
             <div className="flex flex-col items-start gap-16 lg:gap-16-lg">
                 <div className="flex flex-col gap-8 lg:gap-8">
-                    <h5 className="text-16 lg:text-16-lg font-medium leading-150">{title}</h5>
+                    <h6>{title}</h6>
                     <div className="flex items-center gap-11 lg:gap-11-lg">
                         <div className="bg-enrico-cole bg-contain rounded-circle icon-24 bg-primary-2"></div>
                         <Price price={price}></Price>
@@ -80,7 +80,7 @@ const Feed = () => {
                             <div className="flex items-center gap-16 lg:gap-16-lg sm:gap-16-sm">
                                 <div className="bg-enrico-cole bg-contain icon-48 rounded-circle"></div>
                                 <div className="flex flex-col">
-                                    <h6 className="text-24 lg:text-24-lg sm:text-16-sm leading-130 font-semibold">The future of ETH®</h6>
+                                    <h6>The future of ETH®</h6>
                                     <div className="text-14 lg:text-14-lg sm:text-14-sm text-neutrals-3 font-semibold leading-170">18 in stock</div>
                                 </div>
                             </div>

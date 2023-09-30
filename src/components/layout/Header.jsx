@@ -18,7 +18,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="fixed top-0 left-0 right-0 bg-neutrals-8 py-20 lg:py-20-lg sm:pt-48-sm sm:pb-24-sm border-1 lg:border-1-lg sm:border-[0] border-neutrals-6">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-neutrals-8 py-20 lg:py-20-lg sm:pt-48-sm sm:pb-24-sm border-1 lg:border-1-lg sm:border-[0] border-neutrals-6">
       <div className="container">
         <nav className="flex items-center justify-between">
           <ul className="flex items-center gap-32">

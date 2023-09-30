@@ -20,30 +20,119 @@
         }
     }
 
-    h3 {
-        font-size: theme(fontSize.40);
+    .hero {
+        font-size: theme(fontSize.96);
         font-weight: theme(fontWeight.bold);
+        letter-spacing: 0.13vw;
 
         @media (max-width: 1024px) {
-            font-size: theme(fontSize.40-lg);
+            font-size: theme(fontSize.96-lg);
+            letter-spacing: 0.1875vw;
         }
 
         @media (max-width: 600px) {
-            font-size: theme(fontSize.32-sm);
+            font-size: theme(fontSize.96-sm);
+            letter-spacing: 0.512vw;
+        }
+    }
+
+    h1 {
+        font-size: theme(fontSize.64);
+        font-weight: theme(fontWeight.bold);
+        letter-spacing: 0.08vw;
+
+        @media (max-width: 1024px) {
+            font-size: theme(fontSize.64-lg);
+            letter-spacing: 0.125vw;
+        }
+
+        @media (max-width: 600px) {
+            font-size: theme(fontSize.64-sm);
+            letter-spacing: 0.341vw;
         }
     }
 
     h2 {
         font-size: theme(fontSize.48);
         font-weight: theme(fontWeight.bold);
+        line-height: theme(lineHeight.110);
+        letter-spacing: 0.066vw;
+
+        @media (max-width: 1024px) {
+            font-size: theme(fontSize.48-lg);
+            letter-spacing: 0.093vw;
+        }
+
+        @media (max-width: 600px) {
+            font-size: theme(fontSize.48-sm);
+            letter-spacing: 0.256vw;
+        }
+    }
+
+    h3 {
+        font-size: theme(fontSize.40);
+        font-weight: theme(fontWeight.bold);
+        line-height: theme(lineHeight.120);
+        letter-spacing: 0.0277vw;
 
         @media (max-width: 1024px) {
             font-size: theme(fontSize.40-lg);
+            letter-spacing: 0.039vw;
+        }
+
+        @media (max-width: 600px) {
+            font-size: theme(fontSize.40-sm);
+            letter-spacing: 0.1vw;
+        }
+    }
+
+    h4 {
+        font-size: theme(fontSize.32);
+        font-weight: theme(fontWeight.bold);
+        line-height: theme(lineHeight.125);
+        letter-spacing: 0.0277vw;
+
+        @media (max-width: 1024px) {
+            font-size: theme(fontSize.32-lg);
+            letter-spacing: 0.039vw;
         }
 
         @media (max-width: 600px) {
             font-size: theme(fontSize.32-sm);
+            letter-spacing: 0.1vw;
         }
+    }
+
+    h5 {
+        font-size: theme(fontSize.24);
+        font-weight: theme(fontWeight.semibold);
+        line-height: theme(lineHeight.130);
+
+        @media (max-width: 1024px) {
+            font-size: theme(fontSize.24-lg);
+        }
+
+        @media (max-width: 600px) {
+            font-size: theme(fontSize.24-sm);
+        }
+    }
+
+    h6 {
+        font-size: theme(fontSize.16);
+        font-weight: theme(fontWeight.medium);
+        line-height: theme(lineHeight.150);
+
+        @media (max-width: 1024px) {
+            font-size: theme(fontSize.16-lg);
+        }
+
+        @media (max-width: 600px) {
+            font-size: theme(fontSize.16-sm);
+        }
+    }
+
+    p {
+        font-size: theme(fontSize.14);
     }
 
     .icon-16 {
@@ -63,13 +152,16 @@
 
     .icon-20 {
         width: 1.4vw;
+        height: 1.4vw;
 
         @media (max-width: 1024px) {
             width: 1.95vw;
+            height: 1.95vw;
         }
 
         @media (max-width: 600px) {
             width: 5.33vw;
+            height: 5.33vw;
         }
     }
 
@@ -334,4 +426,21 @@
     .lg-btn:hover svg path {
         fill: theme(colors.neutrals.8);
     }
+}
+
+::-webkit-scrollbar {
+  width: 0.7vw;
+  height: 0.5vw;
+}
+
+::-webkit-scrollbar-track {
+  background: theme(colors.neutrals.7);
+}
+
+::-webkit-scrollbar-thumb {
+  background: theme(colors.neutrals.1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: theme(colors.neutrals.2);
 }

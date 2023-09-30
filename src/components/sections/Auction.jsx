@@ -26,7 +26,7 @@ const Auction = () => {
                         <div className="bg-neutrals-6 rounded-8 lg:rounded-8-lg sm:rounded-8-sm flex-auto h-[0.55vw] lg:h-[0.78vw] sm:h-[2.22vw]">
                             <div className="bg-primary-1 rounded-8 lg:rounded-8-lg w-[25%] h-full"></div>
                         </div>
-                        <span className="text-16 lg:text-16-lg sm:text-16-sm font-medium leading-150">2:20</span>
+                        <h6>2:20</h6>
                         <svg className="icon-24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                             <path d="M16 4C15.4477 4 15 4.44772 15 5C15 5.55228 15.4477 6 16 6C19.3137 6 22 8.68629 22 12C22 15.3137 19.3137 18 16 18C15.4477 18 15 18.4477 15 19C15 19.5523 15.4477 20 16 20C20.4183 20 24 16.4183 24 12C24 7.58172 20.4183 4 16 4Z" fill="#777E91"/>
                             <path d="M16 8C15.4477 8 15 8.44772 15 9C15 9.55228 15.4477 10 16 10C17.1046 10 18 10.8954 18 12C18 13.1046 17.1046 14 16 14C15.4477 14 15 14.4477 15 15C15 15.5523 15.4477 16 16 16C18.2091 16 20 14.2091 20 12C20 9.79086 18.2091 8 16 8Z" fill="#777E91"/>
@@ -39,10 +39,10 @@ const Auction = () => {
                 </div>
                 <div className="flex flex-col gap-40 lg:gap-40-lg sm:gap-40-sm">
                     <div className="flex flex-col gap-20 lg:gap-20-lg sm:gap-20-sm">
-                        <h1 className="text-64 lg:text-64-lg sm:text-64-sm font-bold tracking-[0.1vw] leading-90">{screenSize.width > 1024 ? 'the creator network®' : 'Marco carrillo®'}</h1>
+                        <h1 className="leading-90">{screenSize.width > 1024 ? 'the creator network®' : 'Marco carrillo®'}</h1>
                         <div className="flex items-center justify-between">
                             <div className="flex items-center gap-8 lg:gap-8-lg sm:gap-8-sm">
-                                <div className="bg-enrico-cole bg-cover bg-center w-[2.77vw] lg:w-[3.9vw] sm:w-[10vw] h-[2.77vw] lg:h-[3.9vw]csm
+                                <div className="bg-enrico-cole bg-cover bg-center w-[2.77vw] lg:w-[3.9vw] sm:w-[10vw] h-[2.77vw] lg:h-[3.9vw]
                                 sm:h-[10vw] rounded-circle"></div>
                                 <div className="flex flex-col">
                                     <span className="text-12 lg:text-12-lg sm:text-12-sm text-neutrals-4 leading-160 font-Poppins">Creator</span>
@@ -50,7 +50,7 @@ const Auction = () => {
                                 </div>
                             </div>
                             <div className="flex items-center gap-8 lg:gap-8-lg sm:gap-8-sm">
-                                <div className="bg-primary-4 w-[2.77vw] lg:w-[3.9vw] sm:w-[10vw] h-[2.77vw] lg:h-[3.9vw]csm
+                                <div className="bg-primary-4 w-[2.77vw] lg:w-[3.9vw] sm:w-[10vw] h-[2.77vw] lg:h-[3.9vw]
                                 sm:h-[10vw] rounded-circle flex items-center justify-center">
                                     <svg className="icon-24" xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
                                         <path fillRule="evenodd" clipRule="evenodd" d="M12.5 4C10.5478 4 8.74816 4.161 7.30371 4.35177C6.00372 4.52346 5.02346 5.50372 4.85177 6.80371C4.66101 8.24816 4.5 10.0478 4.5 12C4.5 13.9522 4.661 15.7518 4.85177 17.1963C5.02346 18.4963 6.00372 19.4765 7.30371 19.6482C8.74816 19.839 10.5478 20 12.5 20C14.4522 20 16.2518 19.839 17.6963 19.6482C18.9963 19.4765 19.9765 18.4963 20.1482 17.1963C20.339 15.7518 20.5 13.9522 20.5 12C20.5 10.0478 20.339 8.24816 20.1482 6.80371C19.9765 5.50372 18.9963 4.52346 17.6963 4.35177C16.2518 4.16101 14.4522 4 12.5 4ZM7.04184 2.36899C4.84504 2.65912 3.15912 4.34504 2.86899 6.54184C2.66953 8.05208 2.5 9.94127 2.5 12C2.5 14.0587 2.66953 15.9479 2.86899 17.4582C3.15912 19.655 4.84504 21.3409 7.04184 21.631C8.55208 21.8305 10.4413 22 12.5 22C14.5587 22 16.4479 21.8305 17.9582 21.631C20.155 21.3409 21.8409 19.655 22.131 17.4582C22.3305 15.9479 22.5 14.0587 22.5 12C22.5 9.94127 22.3305 8.05208 22.131 6.54184C21.8409 4.34504 20.155 2.65912 17.9582 2.36899C16.4479 2.16953 14.5587 2 12.5 2C10.4413 2 8.55208 2.16953 7.04184 2.36899Z" fill="#FCFCFD"/>
@@ -65,24 +65,24 @@ const Auction = () => {
                     </div>
                     <div className="flex flex-col gap-24 lg:gap-24-lg sm:gap-24-sm p-32 lg:p-32-lg sm:p-32-sm border-2 lg:border-2-lg sm:border-2-sm border-neutrals-6 rounded-24 lg:rounded-24-lg sm:rounded-24-sm shadow-black lg:shadow-black-lg">
                         <div className="flex flex-col items-center text-center">
-                            <div className="text-16 lg:text-16-lg sm:text-16-sm font-medium leading-150">Current Bid</div>
-                            <h2 className="text-neutrals-1 font-DM -tracking-[0.07vw]">1.00 ETH</h2>
-                            <div className="text-24 lg:text-24 sm:text-24-sm text-neutrals-4 leading-130 font-semibold">$3,618.36</div>
+                            <h6>Current Bid</h6>
+                            <h2 className="text-neutrals-1">1.00 ETH</h2>
+                            <h5 className="text-neutrals-4">$3,618.36</h5>
                         </div>
                         <div className="flex flex-col items-center gap-8 lg:gap-8-lg sm:gap-8-sm">
-                            <div className="text-16 lg:text-16-lg sm:text-16-sm font-medium leading-150">Auction ending in</div>
+                            <h6>Auction ending in</h6>
                             <div className="flex items-center gap-40 lg:gap-40-lg sm:gap-40-sm">
                                 <div className="flex flex-col items-center">
-                                    <h4 className="text-32 lg:text-32-lg sm:text-32-sm text-neutrals-1 font-bold leading-120 tracking-[0.022vw]">19</h4>
-                                    <span className="text-16 lg:text-16-lg sm:text-16-sm text-neutrals-4 font-medium leading-150">Hrs</span>
+                                    <h4 className="text-neutrals-1">19</h4>
+                                    <span className="text-neutrals-4">Hrs</span>
                                 </div>
                                 <div className="flex flex-col items-center">
-                                    <h4 className="text-32 lg:text-32-lg sm:text-32-sm text-neutrals-1 font-bold leading-120 tracking-[0.022vw]">24</h4>
-                                    <span className="text-16 lg:text-16-lg sm:text-16-sm text-neutrals-4 font-medium leading-150">mins</span>
+                                    <h4 className="text-neutrals-1">24</h4>
+                                    <span className="text-neutrals-4">mins</span>
                                 </div>
                                 <div className="flex flex-col items-center">
-                                    <h4 className="text-32 lg:text-32-lg sm:text-32-sm text-neutrals-1 font-bold leading-120 tracking-[0.022vw]">19</h4>
-                                    <span className="text-16 lg:text-16-lg sm:text-16-sm text-neutrals-4 font-medium leading-150">secs</span>
+                                    <h4 className="text-neutrals-1">19</h4>
+                                    <span className="text-neutrals-4">secs</span>
                                 </div>
                             </div>
                         </div>

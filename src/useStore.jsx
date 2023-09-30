@@ -58,5 +58,47 @@ export const useStore = create((set) => ({
             </svg>,
             premium: false,
         },
+    ],
+    NFTs: [
+        {
+            img: 'https://s3-alpha-sig.figma.com/img/be6c/8eb9/a3e6110997d1ab2674a7b20908d72c97?Expires=1696809600&Signature=F6iFAxFsN0wVLTykcct6Q12EEK86NDM5-njx8qqoMankuhUoer80i813fa1SMq2K8j2i5pwuLySy49y91FMAuBqmd9JVC8ohXSeebzfWnQrhCGu39MjnnaKURo8zb9lyphCUSpoSwrEo98gfyb4C~dY1lh4-B-bVz4vy9EwBdG8iyXveCtflG0kvbnsRbiTbAJFYZn9K8uZZi2KHsA7vF2e3G9vUKsIpgSBdHDGjiVGk7XZ9bD3mQX175bXjHW4TrjxoR-63Pu33yAOenAj68gQV3px6ywdOsgGhUkccFAE5GX0yDI-rTuF87JpPS68pbE5iB2icwSSjnd8ycQmf9A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
+            title: 'Amazing digital art',
+            price: 2.45,
+        },
+        {
+            img: 'https://s3-alpha-sig.figma.com/img/f6ab/0189/14f069ccbc55998157212c5f101804a2?Expires=1696809600&Signature=TfZBmLb8eYqSQyIFiurNweZA2nQxm70w7W3U-yTAjj3-VGqa~c7yM4HipwYrjNaHYMtkDsKEpqUjzV3MGQ9zYYMsjKohNTGEpxRR980f8lkJDVv9gGlEqKYzz1fvfV109V03N4-Q-Nhf32fEOTt8Zg7DCOsH9kWB4UvTXOlrtDSONWmTjVm4e8aDupJalrQdxE~kTDFF2RKWNn3mN9pvP0RqQf~o84ckAgnd1Xj253GZvK6z-0tpxB9V5TOC9RnODW2dcVkQJFZ8z1LfJXt8kJaXPrYCPQ2gHrj5W13SplSjchBe8KZmpCfLxpIP3X0hclyclDbWuyXKet6Q1dieaw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
+            title: 'Amazing digital art',
+            price: 2.45,
+        },
+        {
+            img: 'https://s3-alpha-sig.figma.com/img/f0fe/2817/33d51b120c75b5ad61a003ad9f9cf3da?Expires=1696809600&Signature=oO6Qpd7kUkCHEz6wwlbkgjz~d-b4x2LG2wlPBo7p5Z5zsiDn3EAx6ryGS2PpfhpU20T4WTsksQj4L9sF~UFJnehSDLhR9CxFCKI5NjBtmQbvOIFfhwpwNu3NkzhuVhmW5xS5PbUiVQd14LkE9FyfOzp4igZqa~U~jCh6ZbFJxoKL8Xvtm7rPftY-tEJnpxTjlOTsiorGWUD8ThFQ1vWZ04RwgwHsLmQstK7PsFhfwRNYsQS0bEYzvS6WA4bnz4TlBjX4YOtyK1ZhALJtOzYdVeyEC7yODIAujenP3tRi8H-y7HyLAaryITkoWvawT2TVGcTHe-5HJBQD4-tBy2iPog__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
+            title: 'Amazing digital art',
+            price: 2.45,
+        },
+        {
+            img: 'https://s3-alpha-sig.figma.com/img/81ab/980c/723714d7b5fb04868d61b0207958f9d2?Expires=1696809600&Signature=aT-Mg3mZLOuxVSVKUEQhM-tDRNscLpQbjxkSxeqrpgCS2HgSLGsP8nioxEqds-OfBatF3CbT8iz1GMlgs80QfxrDdjTUe5BQTT9MbIATKec0hdMcwiYp7w4N9hIiJKWLvdy~a7wblS~97s1m2Ijlc1MgY4V5HU5oYzQdMYQ5NyDND3cYFl~E-~OT3pclhqYrqkYyoh4aTuJtPeAYIoV9xo30E1Onj5uCtd0dzlzSiQO6mXbvF4wu-A~EbRgFOAFxPD-eEzbKNar4XY8LjMx4KxW-QF4PZJsWaNiirOvDFGDFwvfIXFDyfiwrEsFG1DZrjX~Wk-x~vQuz48LoayDiUA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
+            title: 'Amazing digital art',
+            price: 2.45,
+        },
+        {
+            img: 'https://s3-alpha-sig.figma.com/img/1a26/6be6/f2065d04b8f4752cc51b0a1c93c2b06c?Expires=1696809600&Signature=N3cNChVfwylTIVQpvKxPcKHtJwHbIPMIUNKIr6BqrQh~W7E08qiPR1uXt5klgBs0ST4DdTDh8QFL2xf7kn1ed-x9SHjUOSKL4-uSBBnyu4HwHNCI9Vus0cDN5t6y3DeNOZlVKYMpTjtaxf6Sv4IA2R4hojD8EbE1qgLuYkPVuicsOd6ss5d~NHPUnrXoNFSBmfqRamk6ns7StmFRgS2-DW6JWz76FdqUEw2caM0AVk5wUvnOROjUUd6BEXsvExRVj3IG11dKMTqEaPHdvYd3ITPnW-VmSERPvPNGqPhQpOsscS6~tRDCMsRZ-DDaa72TF5se9zxeHwQL-gAI7Wqt-g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
+            title: 'Amazing digital art',
+            price: 2.45,
+        },
+        {
+            img: 'https://s3-alpha-sig.figma.com/img/9150/ebf3/16ad9017a35c33adcaa1f86dbd9362d3?Expires=1696809600&Signature=qhMGW5IqV5xl3G18~QotFwKkhNkZXAk9KxZ--~lC3jkIiJ6d3vqKoLXf76RLq8Zy1JYFJ4FaGV9PaxcTTi2Rbv8Tb1mc6RPp1yGAW-CQxIDrl81gU5B7MyWTccE-6GpN1fHJt5pvQiDNflqn6LfPXx~k8QryFd3eTEFC-CJt5jx2LCT1xxnpMPH7Bl1xsYlApofod3b2k3prjwt83BxUSze8hiKAm~mBrZ0-WKf89-dT0MUvA3I83T90DzMgWMJMpzAqn1JRCc7FUhcilKnYyygaRlyIxwzBWaRZEcNx0RN3zhC3yMCXnTuLm2U4YlCgXvGNdUFflKRRrRuZz9u8Pw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
+            title: 'Amazing digital art',
+            price: 2.45,
+        },
+        {
+            img: 'https://s3-alpha-sig.figma.com/img/9f3e/5a57/082dfa2a234a58056041c6c527124edc?Expires=1696809600&Signature=e2QYxo4dYzMGsC88jtz0sEq4L2wVcCGOZVjmKG5nf-j2HsJhQwWZcHTWdAUJrZFzAl7LOevJZMVyh69E-xiNv8NUgDWCF~-gQtpu2~k2Ji7fGPbHA18SQwfuUR7DRSQ9YdauATVU~Dovx9i9zmsAuQuyEQ9pPa3Yr9UPeM3YWe4eSUTYqKO82Ul9~A1lS5s6SHdj73EdZ0nZ5wRUb06rFMdq41jK5qKjVHPmhgVX6GgztBQoNQWldCE0EnZqb7vWtRKNtcQA2B~5t4czHmanJP2jQQcrY79W89k4-Nm3hFsSs223Ev4FrnuvouCbtDfngxrQRKOYKTZvVrq7LKT~6A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
+            title: 'Amazing digital art',
+            price: 2.45,
+        },
+        {
+            img: 'https://s3-alpha-sig.figma.com/img/0d7e/50b0/8bced18c373d1cc0e240d5edb20d65ff?Expires=1696809600&Signature=BNAQcijyWcGsQY~J1VMUu7ECquJm9ee66kHmTKVGV885qoIpBpGr9oo058aR9IMqrDWdU8V5RvlCy0wPpPASQQ5TuAzWePCiIvEDUO~YNCm0GF9OEodpsKGi8lQRJVrt6DkGf5LQ8GKzwF-7X8ag-exR1d62FSMS9fmd6FAm9Cq29q~18fPVivJvGYFjGyb~KrCObWtFwPae5ca635jcaiYzgErHt3fnnCcFv5Mq5xvtfoSR2aUmBgCF09E8CTFSZ6G0C6CP3y-O7F7IgQo2Kgn1Xs6~R2obWkty1BCLxKHWKF6ATXiZePniVhncwzna5oPWufpA4IYXuaNzFrIr7w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
+            title: 'Amazing digital art',
+            price: 2.45,
+        },
     ]
 }))

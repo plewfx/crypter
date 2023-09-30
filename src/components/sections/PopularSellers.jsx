@@ -5,7 +5,7 @@ import useScreenSizeStore from "../../useScreenSizeStore"
 
 const Creator = ({ creator, index }) => {
     return (
-        <Link className="flex flex-col gap-24 lg:gap-24-lg sm:gap-24-sm p-24 lg:p-24-lg sm:p-24-sm bg-neutrals-8 rounded-16 lg:rounded-16-lg sm:rounded-16-lg hover:scale-110 hover:shadow-black lg:hover:shadow-black-lg">
+        <Link className="flex flex-col gap-24 lg:gap-24-lg sm:gap-24-sm p-24 lg:p-24-lg sm:p-24-sm bg-neutrals-8 rounded-16 lg:rounded-16-lg sm:rounded-16-lg focus:scale-110 focus:shadow-black lg:focus:shadow-black-lg">
             <div className="flex items-center gap-40 lg:gap-32-lg sm:gap-64-sm">
                 <div className={`bg-primary-${index + 1} px-8 lg:px-8-lg sm:px-8-sm py-2 lg:py-2-lg sm:py-2-sm flex items-center gap-4 lg:gap-4-lg sm:gap-4-sm rounded-24 lg:rounded-24-lg sm:rounded-24-sm`}>
                     {creator.icon}
@@ -72,7 +72,7 @@ const PopularSellers = () => {
                 <div className="flex flex-col gap-64 lg:gap-64 sm:gap-32-sm">
                     <div className="flex sm:flex-col items-center sm:items-start justify-between sm:gap-24-sm">
                         <div className="flex flex-col">
-                            <div className="text-24 lg:text-24-lg sm:text-24-sm text-neutrals-4 font-semibold leading-130">Popular</div>
+                            <h5 className="text-neutrals-4">Popular</h5>
                             <div className="flex items-center gap-8 lg:gap-8-lg sm:gap-8-sm">
                                 <h3>Sellers</h3>
                                 <svg className="icon-40" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
@@ -92,7 +92,7 @@ const PopularSellers = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex lg:flex-col items-center gap-32 lg:gap-32-lg sm:gap-32-sm overflow-scroll">
+                    <div className="flex lg:flex-col items-center gap-32 lg:gap-32-lg sm:gap-32-sm lg:overflow-scroll">
                         {
                             screenSize.width > 1024 ?
                             <div onClick={() => setScroll(prev => prev = 'left')} className="p-8 lg:p-8-lg sm:p-8-sm cursor-pointer">
