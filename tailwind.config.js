@@ -76,6 +76,12 @@ export default {
         },
       },
       padding: {
+        '2': '0.1388vw',
+        '2-lg': '0.19vw',
+        '2-sm': '0.53vw',
+        '4': '0.277vw',
+        '4-lg': '0.39vw',
+        '4-sm': '0.1066vw',
         '6': '0.416vw',
         '6-lg': '0.585vw',
         '6-sm': '1.6vw',
@@ -112,6 +118,9 @@ export default {
         '2': '0.1388vw',
         '2-lg': '0.19vw',
         '2-sm': '0.53vw',
+        '4': '0.277vw',
+        '4-lg': '0.39vw',
+        '4-sm': '0.1066vw',
         '8': '0.55vw',
         '8-lg': '0.78vw',
         '8-sm': '2.13vw',
@@ -182,7 +191,8 @@ export default {
       },
       backgroundImage: {
         'auction': 'url(https://s3-alpha-sig.figma.com/img/d34e/76a5/b36936c08b4c5311f499f6bb0bff774c?Expires=1696809600&Signature=Fy4--7aFA3Zmnw3qU~zMMfRntN26JWmGKbqVWpA22BDUCKI3o0yIzYQzoYjzgkDhY4P51nOOo14ZMOlbIR9He7t6-u46DIYpm9Kb2i~HRMLkVhTrhErFwakaOpz96-P1OsrVEcfreM~CFp~J4kRjbeCD9BA7QiF9MVDEPiRuGCJ0vyKG9bVj~6knz5XGv5iN74ar67ItuqVdKGivL58K5LPZRZQQgcG0mJCDizsOjKQVn6QJjh3GFKidkCZeYJ6zIAd3ciq16gJ69tMARrHBaW-DRkTvdSUYtOy29AEOs1kg4xxGmHMOnGb9ygT6lU~W4IhOmuxGt5BEOpYCx74xIw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4)',
-        'enrico-cole': 'url(https://s3-alpha-sig.figma.com/img/b5a8/8790/9d83b2ca3bccdb1c67b0d5481a65f9c6?Expires=1696809600&Signature=O10Eyq0wNlYHoHzHW0CLHuzbqrDm22eJHeeMfpeuDpY89Ba9vu88Lr9ED6lLfPWI9ic26MNuqcgDC1fkkVRb9j9GVG7qujpm0Cq977tLBt-AZUhI4l~eR3I7bB0kEo68j1ykDsutUqzhTYGPggAapo4C0STWwotXsmXqEcZPe7y7kWH1lWM-oUOXng64zPJ4uDA-JCg3~CoTRMXaa-5QzkxMbMfLPKYU~mybv05AHqBf-hCcP3cvoVpQK625k8aNLD31Oe9Gtr-zM4Shq28-PFo2oPdbqeeQd30i3e~qvo0oaOgj4yxpxDaUuth7i-EWX4-IJmsTb926c8czU31DcQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4)'
+        'enrico-cole': 'url(https://s3-alpha-sig.figma.com/img/b5a8/8790/9d83b2ca3bccdb1c67b0d5481a65f9c6?Expires=1696809600&Signature=O10Eyq0wNlYHoHzHW0CLHuzbqrDm22eJHeeMfpeuDpY89Ba9vu88Lr9ED6lLfPWI9ic26MNuqcgDC1fkkVRb9j9GVG7qujpm0Cq977tLBt-AZUhI4l~eR3I7bB0kEo68j1ykDsutUqzhTYGPggAapo4C0STWwotXsmXqEcZPe7y7kWH1lWM-oUOXng64zPJ4uDA-JCg3~CoTRMXaa-5QzkxMbMfLPKYU~mybv05AHqBf-hCcP3cvoVpQK625k8aNLD31Oe9Gtr-zM4Shq28-PFo2oPdbqeeQd30i3e~qvo0oaOgj4yxpxDaUuth7i-EWX4-IJmsTb926c8czU31DcQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4)',
+        'odell-hane': 'url(https://s3-alpha-sig.figma.com/img/60f4/af55/78a33d314f9e6607990abb92248a9464?Expires=1696809600&Signature=FzYCrpTwi3hEIsdE4Bnq1lv-WLeD~dQlAzxPVc4bI4Rfhp5R88VHIP4fUEV3QkL63CI7YhlsOE-474u009iLV2NtveTV1HUOhB9LQ7~fH4eg-Jh0PEGPCfoiD66WV2Wa8Hrl~hLddyRpNB6RESMgRxMk5WyY81vBVypo7c4GLfV8rWq~FVgs0S0LF46tDkxlCOwcQPC7LTnUm6B2NtrxU-Sq7QimMjHiGndZrDwYKg7SY0b4FTyhJbWpGWU01pZVNbhqsE8m3M2RlMR~OjFHpygO80WKCIFTZwht-kzczaFA7oOzNL3p4BeGJ6hlo9phMTtl9P2Dz3dBlcIhcjngQQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4)'
       }
     }
   }

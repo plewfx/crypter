@@ -48,13 +48,16 @@
 
     .icon-16 {
         width: 1.11vw;
+        height: 1.11vw;
 
         @media (max-width: 1024px) {
             width: 1.56vw;
+            height: 1.56vw;
         }
 
         @media (max-width: 600px) {
             width: 4.26vw;
+            height: 4.26vw;
         }
     }
 
@@ -85,6 +88,21 @@
         }
     }
 
+    .icon-40 {
+        width: 2.77vw;
+        height: 2.77vw;
+        
+        @media (max-width: 1024px) {
+            width: 3.9vw;
+            height: 3.9vw;
+        }
+
+        @media (max-width: 600px) {
+            width: 10.66vw;
+            height: 10.66vw;
+        }
+    }
+
     .icon-48 {
         width: 3.33vw;
         height: 3.33vw;
@@ -112,6 +130,21 @@
         @media (max-width: 600px) {
             width: 15vw;
             height: 15vw;
+        }
+    }
+
+    .icon-64 {
+        width: 4.44vw;
+        height: 4.44vw;
+        
+        @media (max-width: 1024px) {
+            width: 6.25vw;
+            height: 6.25vw;
+        }
+
+        @media (max-width: 600px) {
+            width: 17.06vw;
+            height: 17.06vw;
         }
     }
 
